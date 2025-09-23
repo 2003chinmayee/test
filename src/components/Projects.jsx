@@ -38,14 +38,14 @@ const Projects = () => {
                 </span>
               ))}
             </div>
-            <a
+            {/* <a
               href={project.githubLink}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center mt-4 text-cyan-300 hover:text-cyan-400"
             >
               <FaGithub className="mr-2" /> View on GitHub
-            </a>
+            </a> */}
           </motion.div>
         ))}
       </div>
