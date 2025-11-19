@@ -4,35 +4,27 @@ import jsIcon from "/assets/icons/frontend/js.svg";
 import reactIcon from "/assets/icons/frontend/react.svg";
 import reduxIcon from "/assets/icons/frontend/redux.svg";
 import bootstrapIcon from "/assets/icons/frontend/bootstrap.svg";
-import materialUiIcon from "/assets/icons/frontend/material-ui.svg";
 import tailwindCssIcon from "/assets/icons/frontend/tailwind-css.svg";
 
 import pythonIcon from "/assets/icons/backend/python.svg";
-import djangoIcon from "/assets/icons/backend/django.svg";
 import nodejsIcon from "/assets/icons/backend/nodejs.svg";
 import mysqlIcon from "/assets/icons/backend/mysql.svg";
-import postgresqlIcon from "/assets/icons/backend/postgresql.svg";
 import mongodbIcon from "/assets/icons/backend/mongodb.svg";
 
-import flutterIcon from "/assets/icons/mobile/flutter.svg";
-import reactNativeIcon from "/assets/icons/mobile/react-native.svg";
-import androidStudioIcon from "/assets/icons/mobile/android-studio.svg";
-import xcodeIcon from "/assets/icons/mobile/xcode.svg";
+// import flutterIcon from "/assets/icons/mobile/flutter.svg";
+// import reactNativeIcon from "/assets/icons/mobile/react-native.svg";
+// import androidStudioIcon from "/assets/icons/mobile/android-studio.svg";
+// import xcodeIcon from "/assets/icons/mobile/xcode.svg";
 
 import gitIcon from "/assets/icons/others/git.svg";
 import githubIcon from "/assets/icons/others/github.svg";
-import awsIcon from "/assets/icons/others/aws.svg";
-import firebaseIcon from "/assets/icons/others/firebase.svg";
-import dockerIcon from "/assets/icons/others/docker.svg";
-import postmanIcon from "/assets/icons/others/postman.png";
-import terraformIcon from "/assets/icons/others/terraform.svg";
 
 import awsProfessionalBadge from "/assets/images/aws-professional-badge.png";
 import awsDeveloperBadge from "/assets/images/aws-developer-badge.png";
 import awsSolutionBadge from "/assets/images/aws-solutions-badge.png";
 import terraformBadge from "/assets/images/terraform-associate-badge.png";
 
-export const ABOUT_CONTENT = `Motivated Full Stack Developer and a BE student specialized in AI-DS Engineering. With a solid background in data science, machine learning, and web development, I build solutions that leverage data for real-world impact. Explore my projects to see how I combine technical skills with creative problem-solving.
+export const ABOUT_CONTENT = `Motivated Full Stack Developer and a BE student specialized in Computer Engineering. With a solid background in frontend, Backend, and web development, I build solutions that leverage data for real-world impact. Explore my projects to see how I combine technical skills with creative problem-solving.
 
 `;
 
@@ -44,118 +36,121 @@ export const TECHNOLOGIES = {
     { icon: reactIcon, name: "React" },
     { icon: reduxIcon, name: "Redux" },
     { icon: bootstrapIcon, name: "BootStrap" },
-    { icon: materialUiIcon, name: "Material UI" },
+
     { icon: tailwindCssIcon, name: "Tailwind CSS" },
   ],
   Backend: [
     { icon: pythonIcon, name: "Python" },
-    { icon: djangoIcon, name: "Django" },
     { icon: nodejsIcon, name: "NodeJS" },
     { icon: mysqlIcon, name: "MySQL" },
-    { icon: postgresqlIcon, name: "PostgreSQL" },
     { icon: mongodbIcon, name: "MongoDB" },
   ],
-  Mobile: [
-    { icon: flutterIcon, name: "Flutter" },
-    { icon: reactNativeIcon, name: "React Native" },
-    { icon: androidStudioIcon, name: "Android Studio" },
-    { icon: xcodeIcon, name: "Xcode" },
-  ],
+
   Others: [
     { icon: gitIcon, name: "Git" },
     { icon: githubIcon, name: "GitHub" },
-    { icon: awsIcon, name: "AWS" },
-    { icon: firebaseIcon, name: "Firebase" },
-    { icon: dockerIcon, name: "Docker" },
-    { icon: postmanIcon, name: "Postman" },
-    { icon: terraformIcon, name: "Terraform" },
   ],
 };
 
-export const EXPERIENCES = [
-  {
-    year: "Dec 2023 - Feb 2024",
-    role: "Research and Analytics Intern",
-    company: " iGurus Consultancy Services",
-    description: `I  Conducted research and data analysis in machine learning, AI, and NLP Used data preprocessing techniques to clean and prepare data for model training. Implemented models to solve real-world problems using data science techniques..`,
-    technologies: ["Core Python", "Advance Python", "ETL Process", "ML", "NLP"  ],
-  },
-  {
-    year: "Jan 2023 - Mar 2023",
-    role: "Data Science Intern",
-    company: "Teachnooc Services",
-    description: `Developed predictive models using machine learning to forecast business trends. Cleaned, processed, and visualized data using Python (Pandas, NumPy, Matplotlib). Created dashboards and reports using Power BI/Tableau for data-driven insights.`,
-    technologies: ["Python", "Pandas", "Numpy", "Power BI", "Tableau" , 'Matplotlib'],
-  },
-];
+export const EXPERIENCES = [];
+
+// export const EXPERIENCES = [
+//   {
+//     year: "Dec 2023 - Feb 2024",
+//     role: "Research and Analytics Intern",
+//     company: " iGurus Consultancy Services",
+//     description: `I  Conducted research and data analysis in machine learning, AI, and NLP Used data preprocessing techniques to clean and prepare data for model training. Implemented models to solve real-world problems using data science techniques..`,
+//     technologies: ["Core Python", "Advance Python", "ETL Process", "ML", "NLP"  ],
+//   },
+//   {
+//     year: "Jan 2023 - Mar 2023",
+//     role: "Data Science Intern",
+//     company: "Teachnooc Services",
+//     description: `Developed predictive models using machine learning to forecast business trends. Cleaned, processed, and visualized data using Python (Pandas, NumPy, Matplotlib). Created dashboards and reports using Power BI/Tableau for data-driven insights.`,
+//     technologies: ["Python", "Pandas", "Numpy", "Power BI", "Tableau" , 'Matplotlib'],
+//   },
+// ];
 
 export const EDUCATION = [
   {
     institution: "Ajeenkya D. Y. Patil School of Engineering",
     university: "Savitribai Phule Pune University",
-    percentage: "8.44 CGPA",
-    year: "2022-2025",
-    degree: "Bachelor of Artificial Intelligence and Data Science",
+    percentage: "8.81 CGPA",
+    year: "2021-2025",
+    degree: "Bachelor of Engineering (Computer Engineering)",
     location: "Pune, Maharashtra",
     level: "college",
   },
   {
-    institution: "Government Polytechnic College, Ambad",
+    institution: " Sadhana Jr. College",
     university: "Maharashtra State Board of Technical Education",
-    percentage: "86.17%",
-    year: "2022",
-    degree: "Diploma in Computer Science",
-    location: "Ambad, Maharashtra",
+    percentage: "88.60%",
+    year: "2019–2021",
+    degree: "Higher Secondary Certificate (HSC)",
+    location: "Gadhinglaj, Maharashtra",
     level: "higher-secondary",
   },
   {
-    institution: "Shivchhatrapati High School",
-    university: "Maharashtra State Board of Secondary and Higher Secondary Education",
-    percentage: "87.0%",
+    institution: "Mahatma Phule Vidyalaya & Jr. College",
+    university:
+      "Maharashtra State Board of Secondary and Higher Secondary Education",
+    percentage: "92.80%",
     year: "2019",
-    degree: "High School (10<sup>th</sup>)",
-    location: "Pachod, Maharashtra",
+    degree: "Secondary School Certificate (SSC)(10<sup>th</sup>)",
+    location: "Karve, Maharashtra",
     level: "high-school",
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: " Wanderlust – Full Stack Travel Listing App",
+    description:
+      "Developed a full-stack travel destination listing platform with user authentication, property management, and reviews. Designed a responsive interface using React.js, Node.js, and MongoDB for seamless navigation and data handling",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap",
+      "JavaScript",
+    ],
+    githubLink: "https://mern-full-stack-wwonderlust-project.vercel.app/",
+  },
 
   {
-    title: " Multi-Language Transliteration App",
+    title: "Plant Disease Detection – AI-Based Web App",
     description:
-      "Developed a multi-language transliteration app using React Native, enabling real-time script conver sion for languages like Hindi, Tamil, and Bengali. The app features a simple UI, supports multiple languages, and ensures smooth functionality on Android and iOS platforms.",
-    technologies: ["React Native", "JavaScript", "Expo", "NLP"],
-    githubLink: "https://github.com/adie253",
+      " Built an AI-powered plant disease detection system using deep learning and image processing. Farmers can upload plant leaf images to detect diseases and view recommendations through a clean, responsive frontend built with HTML, CSS, and JavaScript.",
+    technologies: [
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    githubLink: "https://github.com/2003chinmayee/-plant-disease-detection",
+    // link:"https://mern-full-stack-wwonderlust-project.vercel.app/",
   },
 
   {
-    title: "Paper Publication Website",
+    title: "Personal Portfolio Website",
     description:
-      "Developed a paper publication website using ReactJS, allowing users to submit, review, and publish academic papers. The site features a clean interface, supports user authentication, and includes functionalities like paper uploads, peer reviews, and search filters for published works. It provides an efficient platform for managing the publication process.",
-    technologies: ["ReactJS", "JavaScript", "MongoDB", "ExpressJS", "NodeJS"],
-    githubLink: "https://github.com/adie253",
-    link:"https://adypsoe.in/adypjiet/contact.html",
+      "Developed a responsive personal portfolio using React and Tailwind CSS to showcase my projects, education, and contact details with modern animations and smooth scrolling effects.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    githubLink: "https://github.com/2003chinmayee",
+    // link:"https://jobsborad.vercel.app/",
   },
 
-   {
-    title: "JobsBoard",
-    description:
-      "Created a job listing platform using MERN stack, enabling employers to post job openings and job seekers to search and apply for positions. The platform features user authentication, job filtering, and application tracking, providing a seamless experience for both employers and candidates.",
-    technologies: ["ReactJS", "JavaScript", "MongoDB", "ExpressJS", "NodeJS"],
-    githubLink: "https://github.com/adie253",
-    link:"https://jobsborad.vercel.app/",
-  },
-
-  
-   {
-    title: "Car Showroom UI",
-    description:
-      "Designed a Supercars showroom ui in figma with modern and sleek aesthetics. The design features a responsive layout, high-quality images, and intuitive navigation to enhance user experience. It showcases various car models with detailed specifications and pricing information.",
-    technologies: ["Figma", "UI/UX Design"],
-    githubLink: "https://github.com/adie253/Cars-Showroom",
-    link:"https://www.figma.com/proto/e1sfixZRdkSTfl3SYVK1Gg/Untitled?node-id=1-23&p=f&t=Cgp0ROSxvWQpLI9y-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3",
-  },
+  //  {
+  //   title: "Car Showroom UI",
+  //   description:
+  //     "Designed a Supercars showroom ui in figma with modern and sleek aesthetics. The design features a responsive layout, high-quality images, and intuitive navigation to enhance user experience. It showcases various car models with detailed specifications and pricing information.",
+  //   technologies: ["Figma", "UI/UX Design"],
+  //   githubLink: "https://github.com/adie253/Cars-Showroom",
+  //   link:"https://www.figma.com/proto/e1sfixZRdkSTfl3SYVK1Gg/Untitled?node-id=1-23&p=f&t=Cgp0ROSxvWQpLI9y-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3",
+  // },
 ];
 
 export const CERTIFICATIONS = [
@@ -190,11 +185,10 @@ export const CERTIFICATIONS = [
 ];
 
 export const CONTACT = {
-  phoneNo: "+91 8080125309",
-  email: "aadityaekhande@gmail.com",
-  linkedin: "https://www.linkedin.com/in/adityae/",
-  github: "https://github.com/adie253",
+  phoneNo: "+91 8767889513",
+  email: "chinmayeepatil2003@gmail.com",
+  linkedin: "https://www.linkedin.com/in/21-chinmayee-patil/",
+  github: "https://github.com/2003chinmayee",
   x: "https://x.com/",
-  instagram:
-    "https://www.instagram.com/aditya_ekhande_?igsh=MWZ3bGJ1Mmk5NzFwdA%3D%3D&utm_source=qr",
+  instagram: "https://www.instagram.com/chinupatil21/",
 };

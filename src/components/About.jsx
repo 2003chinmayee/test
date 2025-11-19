@@ -26,7 +26,7 @@ const About = () => {
               animate="visible"
               className="pb-8 text-4xl font-thin tracking-tight mt-8 lg:mt-16 lg:text-5xl"
             >
-              Aditya Ekhande
+              CHINMAYEE PATIL
             </motion.h1>
             <motion.div
               variants={animatedContainer(0.5)}
@@ -37,7 +37,12 @@ const About = () => {
               <span className="text-white items-start">I am a </span>
               <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-indigo-600 bg-clip-text text-transparent font-normal">
                 <Typewriter
-                  words={["Full Stack Developer", "Mobile App Developer"]}
+                  words={[
+                    "Full Stack Developer",
+                    "FrontEnd Developer",
+                    "Backend Developer",
+                    "MERN stack Developer",
+                  ]}
                   loop={0}
                   cursor
                   cursorStyle=""
@@ -57,7 +62,7 @@ const About = () => {
             </motion.p>
             <motion.a
               href={ResumePDF}
-              download="Aditya_Ekhande_Resume.pdf"
+              download="Chinmayee_Patil_Resume.pdf"
               className="inline-flex my-6 items-center mt-6 px-6 py-3 
                           bg-transparent 
                           border border-cyan-200 
@@ -74,7 +79,6 @@ const About = () => {
             </motion.a>
           </div>
         </div>
-
       </div>
     </Element>
   );

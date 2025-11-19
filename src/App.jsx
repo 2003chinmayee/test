@@ -1,8 +1,8 @@
 import About from "./components/About";
-import Certification from "./components/Certification";
+// import Certification from "./components/Certification";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import ScrollToTopButton from "./components/ScrollToTopButton";
@@ -18,7 +18,7 @@ export default function App() {
         <NavBar />
         <About />
         <Skills />
-        <Experience />
+        {/* <Experience /> */}
         <Education />
         <Projects />
         {/* <Certification /> */}
